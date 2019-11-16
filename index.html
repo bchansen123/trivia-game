@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <button class= "btn btn-primary btn-lg startingForm" id = "startButton">Start the Quiz!</button>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p> <b> Question 1: What Who leads S.H.I.E.L.D in the MCU universe?</b></p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p>
+                    <form id="questionOne">
+                        <input type="radio" name="q1" value="captainAmerica"> Captain America
+                        <input type="radio" name="q1" value="ironMan"> Iron Man
+                        <input type="radio" name="q1" value="nickFury"> Nick Fury
+                        <input type="radio" name="q1" value="blackPanther"> Black Panther
+                    </form>
+                </p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p> <b> Question 2: How did the Hulk get his superpowers?</b></p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p>
+                    <form id="questionOne">
+                        <input type="radio" name="q2" value="toxicWaste"> Toxic Waste
+                        <input type="radio" name="q2" value="gammaRadiation"> Gamma Radiation
+                        <input type="radio" name="q2" value="superSerum"> Super Serum
+                        <input type="radio" name="q2" value="solarFlare"> A Solar Flare
+                    </form>
+                </p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p> <b> Question 3: Who defeated Thanos in the comic books after he snapped his fingers?</b></p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p>
+                    <form>
+                    <input type="radio" name="q3" value="nova"> Nebula
+                    <input type="radio" name="q3" value="hulk"> The Hulk
+                    <input type="radio" name="q3" value="captainAmerica"> Captain America
+                    <input type="radio" name="q3" value="thor"> Thor
+                    </form>
+                </p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p> <b> Question 4: Where is the Avengers headquarters?</b></p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p>
+                    <form>
+                    <input type="radio" name="q4" value="sanFrancisco"> San Francisco
+                    <input type="radio" name="q4" value="boston"> Boston
+                    <input type="radio" name="q4" value="atlanta"> Atlanta
+                    <input type="radio" name="q4" value="newYork"> New York
+                    </form>
+                </p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p> <b> Question 5: Who is the Strongest MCU character in the comic books?</b></p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p>
+                    <form></form>
+                    <input type="radio" name="q5" value="scarletWitch"> Scarlet Witch
+                    <input type="radio" name="q5" value="doctorStrange"> Doctor Strange
+                    <input type="radio" name="q5" value="hulk"> The Hulk
+                    <input type="radio" name="q5" value="thor"> Thor
+                </form>
+                </p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p> <b> Question 6: Who was the original Ant Man?</b></p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p>
+                    <form>
+                    <input type="radio" name="q6" value="scottLang"> Scott Lange
+                    <input type="radio" name="q6" value="ericoGrady"> Eric O'Grady
+                    <input type="radio" name="q6" value="hankPym"> Hank Pym
+                    <input type="radio" name="q6" value="damianWayne"> Maria Trovaya
+                    </form>
+                </p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p> <b> Question 7: Who is the father of Scarlet Witch and Quicksilver?</b></p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p>
+                    <form>
+                    <input type="radio" name="q7" value="gambit"> Gambit
+                    <input type="radio" name="q7" value="magneto"> Magneto
+                    <input type="radio" name="q7" value="professorX"> Professor X
+                    <input type="radio" name="q7" value="juggernaut"> Juggernaut
+                    </form>
+                </p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p> <b> Question 8: How does Captain America die in the comic books?</b></p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p>
+                    <form>
+                    <input type="radio" name="q8" value="poison"> From poison
+                    <input type="radio" name="q8" value="explosion"> An explosion
+                    <input type="radio" name="q8" value="sniper"> A sniper
+                    <input type="radio" name="q8" value="oldAge"> From old age
+                     </form>
+                </p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p> <b> Question 9: What is Professor X's machine called to detect mutants from humans?</b></p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p>
+                    <form>
+                    <input type="radio" name="q9" value="psychonaut"> Psychonaut
+                    <input type="radio" name="q9" value="telemuto"> Telemuto
+                    <input type="radio" name="q9" value="mutago"> Mutago
+                    <input type="radio" name="q9" value="cerebro"> Cerebro
+                    </form>
+                </p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p> <b> Question 10: What planet did the Hulk become the ruler of?</b></p>
+            </div>
+            <div class= "col-md-12 invisible">
+                <p>
+                    <form>
+                    <input type="radio" name="q10" value=""> Xandar
+                    <input type="radio" name="q10" value="Sakaar"> Sakaar
+                    <input type="radio" name="q10" value=""> Morag
+                    <input type="radio" name="q10" value=""> Berhart
+                    </form>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/javascript.js"></script>
+</body>
+</html>
