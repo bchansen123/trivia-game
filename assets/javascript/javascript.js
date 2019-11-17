@@ -103,4 +103,4 @@ $("#submitButton").on("click", function() {
 countingAnswers();
 submitInvis();
 
-});
+}); 
